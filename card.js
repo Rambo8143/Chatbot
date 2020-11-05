@@ -564,11 +564,11 @@
                         }
 
                         jQuery.ajax({
-                            url: "https://api.openconnectors.ext.hanatrial.ondemand.com/elements/api-v2/",
+                            url: "REPLACE_WITH_SAP_CAI_ENDPOINT",
                             cache: false,
                             type: "POST",
                             headers: {
-                                'Authorization': 'User CnRqeTAM/0Gam0mn0FC8THg41b1BfZhpNPUCGCd8pns=, Organization 7c864423133b0be7aa25ce19cbbc7aaf, Element w/8rxilrE8xEjCzWAmLSd1nVEZddmSQyycqzXpFkF08=',
+                                'Authorization': 'User xxxx',
                                 'Content-Type': 'application/json'
                             },
                             data: data,
